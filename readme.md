@@ -38,11 +38,15 @@ class QuestãoOrdenaValores {
 	verificaQuestão();
 	tipo: TipoQuestão;
 }
+```
 
-		print('Preenche valores.');
-		ListItem.hide();
-		$VBoxContainer/HBoxContainer.add_child(LineEdit.new());
-		var label = Label.new();
-		label.text = 'brincando';
-		$VBoxContainer/HBoxContainer.add_child(label);
+- para adicionar um item.
+
+```
+print('Preenche valores.');
+ListItem.hide();
+$VBoxContainer/HBoxContainer.add_child(LineEdit.new());
+var label = Label.new();
+label.text = 'brincando';
+$VBoxContainer/HBoxContainer.add_child(label);
 ```
