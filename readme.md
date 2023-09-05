@@ -1,27 +1,14 @@
-Primeiro cria um user interface que vai vir com o Control na raiz.
+# Questões em forma de classe JSON.
 
-- cria uma TextureRect
-    - coloca uma imagem no background do TextureRect. ( imagem no assets ).
-
-- cria uma Label
-    - insere um texto.
-    - é possível editar o texto da label e formatar.
-
-- cria um ItemList
-    - é possível adicionar um tema para a ItemList
-
-- criau ma Button.
-
-para criar algo como uma div no layout podemos usar o VBoxContainer.item
-
-
-## modelagem de classes.
 
 ```typescript
+class QuestãoFactory {
+
+}
+
 class QuestãoMultiplaEscolha { 
 	titulo: string; 
 	alternativas: Array;
-	respostaCorretaBaseadaNoindex: number;
 	verificaQuestão();
 	tipo: TipoQuestão;
 }
@@ -47,15 +34,15 @@ class QuestãoPreencheValores {
 
 class QuestãoOrdenaValores {
 	titulo: string;
-	al
+	alternativas: Array;
 	verificaQuestão();
 	tipo: TipoQuestão;
 }
 
-{
-	"title": "Ordene os itens.",
-	"options": ["CH₄","+","2O₂","->", "CO₂", "+", "H₂O"],
-	"correctAwnser": "CH₄ + 2O₂ -> CO₂ + H₂O"
-}
+		print('Preenche valores.');
+		ListItem.hide();
+		$VBoxContainer/HBoxContainer.add_child(LineEdit.new());
+		var label = Label.new();
+		label.text = 'brincando';
+		$VBoxContainer/HBoxContainer.add_child(label);
 ```
-
