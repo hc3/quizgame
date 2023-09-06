@@ -15,7 +15,6 @@ func readJson():
 	var json_as_text = FileAccess.get_file_as_string("res://questions.json")
 	return JSON.parse_string(json_as_text)
 	
-
 func _ready():
 	refreshScene();
 	
@@ -62,6 +61,8 @@ func showQuestions():
 		$VBoxContainer/HBoxContainerButton.add_child(button);
 		
 	if(item.tipo == 'QUESTION_SORT_VALUES'):
+		ListItem.hide();
+		$VBoxContainer/HBoxContainerButton.hide();
 		print('Ordena valores.');
 
 
@@ -93,9 +94,10 @@ func onButtonPressed():
 			break;
 			
 	if areEqual:
-		print('resposta certa.');
-	else:
-		print('resposta errada.');
+		correctAnwsers += 1;
+		
+	indexItem += 1;
+	refreshScene();
 	
 func createLabel(option):
 	var label = Label.new();
