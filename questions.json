@@ -1,152 +1,25 @@
 [
-  {
-	"title": "Qual é a equação balanceada correta para a reação de combustão do metano (CH₄)?",
-	"options": [
-	  "CH₄ + 2O₂ -> CO₂ + H₂O",
-	  "CH₄ + O₂ -> CO₂ + H₂O",
-	  "CH₄ + 3O₂ -> 2CO₂ + 3H₂O",
-	  "CH₄ -> CO₂ + H₂O"
-	],
-	"correctAwnserIndex": 0
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de síntese da amônia (NH₃) a partir de nitrogênio (N₂) e hidrogênio (H₂)?",
-	"options": [
-	  "N₂ + H₂ -> NH₄",
-	  "N₂ + H₂O -> NH₃",
-	  "N₂ + 3H₂ -> 2NH₃",
-	  "N₂ + H₂ -> NH₃"
-	],
-	"correctAwnserIndex": 2
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a decomposição do peróxido de hidrogênio (H₂O₂) em água (H₂O) e oxigênio (O₂)?",
-	"options": [
-	  "H₂O₂ -> H₂O + O₂",
-	  "H₂O₂ -> H₂O + H₂",
-	  "H₂O₂ -> H₂O + O₃",
-	  "H₂O₂ + O₂ -> H₂O + O₄"
-	],
-	"correctAwnserIndex": 0
-  },
-  {
-	"title": "Qual é o objetivo do balanceamento de equações químicas?",
-	"options": [
-	  "Criar novas substâncias",
-	  "Garantir que o número de átomos de cada elemento seja o mesmo nos dois lados da equação",
-	  "Aumentar o rendimento de uma reação química",
-	  "Reduzir a velocidade de uma reação química"
-	],
-	"correctAwnserIndex": 1
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de neutralização entre ácido clorídrico (HCl) e hidróxido de sódio (NaOH) para formar cloreto de sódio (NaCl) e água (H₂O)?",
-	"options": [
-	  "HCl + NaOH -> NaCl + H₂O",
-	  "HCl + NaOH -> NaCl + H₂",
-	  "H₂O + NaOH -> NaCl + HCl",
-	  "HCl + Na₂O -> NaCl + H₂O"
-	],
-	"correctAwnserIndex": 0
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de síntese do ácido sulfúrico (H₂SO₄) a partir de enxofre (S), oxigênio (O₂) e água (H₂O)?",
-	"options": [
-	  "S + O₂ + H₂O -> H₂SO₄",
-	  "S + 2O₂ + H₂O -> H₂SO₄",
-	  "2S + 3O₂ + 2H₂O -> 2H₂SO₄",
-	  "S + O₂ -> H₂SO₄"
-	],
-	"correctAwnserIndex": 2
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de decomposição do bicarbonato de sódio (NaHCO₃) em carbonato de sódio (Na₂CO₃), água (H₂O) e dióxido de carbono (CO₂)?",
-	"options": [
-	  "NaHCO₃ -> Na₂CO₃ + H₂O + CO₂",
-	  "NaHCO₃ -> Na₂CO₃ + H₂O + O₂",
-	  "Na₂CO₃ -> NaHCO₃ + H₂O + CO₂",
-	  "Na₂CO₃ -> NaHCO₃ + H₂O + O₂"
-	],
-	"correctAwnserIndex": 0
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de síntese do ácido clorídrico (HCl) a partir de cloro (Cl₂) e hidrogênio (H₂)?",
-	"options": [
-	  "Cl₂ + H₂ -> HCl",
-	  "Cl₂ + H₂O -> HCl",
-	  "2Cl₂ + H₂ -> 2HCl",
-	  "Cl₂ + 2H₂ -> 2HCl"
-	],
-	"correctAwnserIndex": 2
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de combustão do etanol (C₂H₅OH) com oxigênio (O₂) para formar dióxido de carbono (CO₂) e água (H₂O)?",
-	"options": [
-	  "C₂H₅OH + O₂ -> CO₂ + H₂O",
-	  "C₂H₅OH + 2O₂ -> CO₂ + H₂O",
-	  "C₂H₅OH + 3O₂ -> 2CO₂ + 3H₂O",
-	  "C₂H₅OH -> CO₂ + H₂O"
-	],
-	"correctAwnserIndex": 0
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de decomposição do perclorato de potássio (KClO₄) em cloreto de potássio (KCl), dióxido de cloro (ClO₂) e oxigênio (O₂)?",
-	"options": [
-	  "KClO₄ -> KCl + ClO₂ + O₂",
-	  "KClO₄ -> KCl + ClO₂ + H₂O",
-	  "2KClO₄ -> 2KCl + ClO₂ + O₂",
-	  "KClO₄ -> KCl + ClO₂"
-	],
-	"correctAwnserIndex": 2
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de síntese do ácido nítrico (HNO₃) a partir de nitrogênio (N₂), oxigênio (O₂) e água (H₂O)?",
-	"options": [
-	  "N₂ + O₂ + H₂O -> 2HNO₃",
-	  "2N₂ + 5O₂ + 2H₂O -> 4HNO₃",
-	  "N₂ + 3O₂ + H₂O -> HNO₃",
-	  "N₂ + O₂ -> HNO₃ + H₂O"
-	],
-	"correctAwnserIndex": 1
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de síntese do hidróxido de cálcio [Ca(OH)₂] a partir de óxido de cálcio (CaO) e água (H₂O)?",
-	"options": [
-	  "CaO + H₂O -> Ca(OH)₂",
-	  "CaO + H₂ -> Ca(OH)₂",
-	  "Ca(OH)₂ + H₂O -> CaO",
-	  "Ca(OH)₂ + H₂ -> CaO + H₂O"
-	],
-	"correctAwnserIndex": 0
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de síntese do dióxido de enxofre (SO₂) a partir de enxofre (S) e oxigênio (O₂)?",
-	"options": [
-	  "S + O₂ -> SO₂",
-	  "S + 2O₂ -> SO₂",
-	  "2S + 3O₂ -> 2SO₂",
-	  "S + O₂ -> 2SO₂"
-	],
-	"correctAwnserIndex": 1
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de decomposição do bicarbonato de potássio (KHCO₃) em carbonato de potássio (K₂CO₃), água (H₂O) e dióxido de carbono (CO₂)?",
-	"options": [
-	  "KHCO₃ -> K₂CO₃ + H₂O + CO₂",
-	  "KHCO₃ -> K₂CO₃ + H₂O + O₂",
-	  "K₂CO₃ -> KHCO₃ + H₂O + CO₂",
-	  "K₂CO₃ -> KHCO₃ + H₂O + O₂"
-	],
-	"correctAwnserIndex": 0
-  },
-  {
-	"title": "Qual é a equação balanceada correta para a reação de síntese do óxido de ferro (III) (Fe₂O₃) a partir de ferro (Fe) e oxigênio (O₂)?",
-	"options": [
-	  "Fe + O₂ -> Fe₂O₃",
-	  "Fe + 2O₂ -> Fe₂O₃",
-	  "2Fe + 3O₂ -> 2Fe₂O₃",
-	  "Fe + O₂ -> 2Fe₂O₃"
-	],
-	"correctAwnserIndex": 2
-  }
+	{
+		"title": "Qual é a equação balanceada correta para a reação de combustão do metano (CH₄)?",
+		"options": [
+		  "CH₄ + 2O₂ -> CO₂ + H₂O",
+		  "CH₄ + O₂ -> CO₂ + H₂O",
+		  "CH₄ + 3O₂ -> 2CO₂ + 3H₂O",
+		  "CH₄ -> CO₂ + H₂O"
+		],
+		"tipo": "MULTIPLE_CHOICE_QUESTION",
+		"correctAwnser": 0
+	},
+	{ 
+		"title": "Preencha com os valores para realizar o balanceamento.",
+		"options": ["?C", "+" ,"?O₂","->","?CO₂"],
+		"tipo": "QUESTION_FILL_VALUES",
+		"correctAwnser": [1, 1, 1]
+	},
+	{
+		"title": "Ordene os itens.",
+		"options": ["CH₄","+","2O₂","->", "CO₂", "+", "H₂O"],
+		"tipo": "QUESTION_SORT_VALUES",
+		"correctAwnser": "CH₄ + 2O₂ -> CO₂ + H₂O"
+	}
 ]

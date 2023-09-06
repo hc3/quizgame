@@ -1,13 +1,24 @@
-[gd_scene load_steps=6 format=3 uid="uid://dw20qe8ouhfgf"]
+[gd_scene load_steps=8 format=3 uid="uid://dw20qe8ouhfgf"]
 
 [ext_resource type="Texture2D" uid="uid://du3mavtjjmthv" path="res://assets/background.png" id="1_5y38f"]
 [ext_resource type="Script" path="res://main.gd" id="1_q35sn"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tkuo4"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dh368"]
+bg_color = Color(0, 0.666667, 0.811765, 1)
+border_color = Color(0.8, 0.12549, 0.8, 1)
+border_blend = true
 
-[sub_resource type="Theme" id="Theme_aqlb3"]
-ItemList/colors/font_color = Color(1, 1, 1, 1)
-ItemList/styles/panel = SubResource("StyleBoxEmpty_tkuo4")
+[sub_resource type="Theme" id="Theme_3n5hw"]
+/colors/border = Color(0, 0, 0, 1)
+ItemList/constants/h_separation = 40
+ItemList/constants/line_separation = 20
+ItemList/constants/v_separation = 10
+ItemList/styles/panel = SubResource("StyleBoxFlat_dh368")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a2m2n"]
+bg_color = Color(0.6, 0.6, 0.6, 0.45098)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_agb4e"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5kc6f"]
 bg_color = Color(0.392157, 0.643137, 0.709804, 1)
@@ -53,13 +64,26 @@ autowrap_mode = 3
 justification_flags = 171
 
 [node name="ItemList" type="ItemList" parent="VBoxContainer"]
+visible = false
 layout_mode = 2
-theme = SubResource("Theme_aqlb3")
-theme_override_colors/guide_color = Color(0, 0, 0, 0)
+theme = SubResource("Theme_3n5hw")
+theme_override_colors/font_color = Color(0.403922, 0.423529, 0.0117647, 1)
+theme_override_colors/font_hovered_color = Color(0.168627, 0.47451, 0.827451, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0.572549, 1)
+theme_override_colors/font_outline_color = Color(0.956863, 0, 0, 1)
+theme_override_colors/guide_color = Color(0, 0.858824, 0, 1)
+theme_override_styles/panel = SubResource("StyleBoxFlat_a2m2n")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_agb4e")
 auto_height = true
 item_count = 2
 item_0/text = "Questão 01."
 item_1/text = "Questão 02."
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainerButton" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
 
 [node name="Button" type="Button" parent="VBoxContainer"]
 layout_mode = 2
